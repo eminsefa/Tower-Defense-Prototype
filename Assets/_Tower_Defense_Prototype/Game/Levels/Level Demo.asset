@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1e1165a9c446a084a58363910d5ec7, type: 3}
+  m_Name: Level Demo
+  m_EditorClassIdentifier: 
+  BaseHealth: 1
+  TowerTypes: 0300000002000000
+  PathData:
+    GridSize: 2
+    Positions:
+    - {x: -7, y: 9}
+    - {x: -5, y: 9}
+    - {x: -3, y: 9}
+    - {x: -3, y: 7}
+    - {x: -1, y: 7}
+    - {x: 1, y: 7}
+    - {x: 1, y: 9}
+    - {x: 3, y: 9}
+    - {x: 5, y: 9}
+    - {x: 5, y: 7}
+    - {x: 5, y: 5}
+    - {x: 5, y: 3}
+    - {x: 3, y: 3}
+    - {x: 1, y: 3}
+    - {x: -1, y: 3}
+    - {x: -1, y: 5}
+    - {x: -3, y: 5}
+    - {x: -5, y: 5}
+    - {x: -5, y: 3}
+    - {x: -5, y: 1}
+    - {x: -5, y: -1}
+    - {x: -3, y: -1}
+    - {x: -1, y: -1}
+    - {x: 1, y: -1}
+    - {x: 3, y: -1}
+    - {x: 3, y: -3}
+    - {x: 3, y: -5}
+    - {x: 1, y: -5}
+    - {x: -1, y: -5}
+    - {x: -1, y: -7}
+    - {x: -1, y: -9}
+    SplinePoints:
+    - _type: 0
+      position: {x: -7, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -7, y: 9, z: 0}
+      tangent2: {x: -7, y: 9, z: 0}
+    - _type: 0
+      position: {x: -5, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -5, y: 9, z: 0}
+      tangent2: {x: -5, y: 9, z: 0}
+    - _type: 0
+      position: {x: -3, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -3, y: 9, z: 0}
+      tangent2: {x: -3, y: 9, z: 0}
+    - _type: 0
+      position: {x: -3, y: 7, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -3, y: 7, z: 0}
+      tangent2: {x: -3, y: 7, z: 0}
+    - _type: 0
+      position: {x: -1, y: 7, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: 7, z: 0}
+      tangent2: {x: -1, y: 7, z: 0}
+    - _type: 0
+      position: {x: 1, y: 7, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 1, y: 7, z: 0}
+      tangent2: {x: 1, y: 7, z: 0}
+    - _type: 0
+      position: {x: 1, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 1, y: 9, z: 0}
+      tangent2: {x: 1, y: 9, z: 0}
+    - _type: 0
+      position: {x: 3, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3, y: 9, z: 0}
+      tangent2: {x: 3, y: 9, z: 0}
+    - _type: 0
+      position: {x: 5, y: 9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 5, y: 9, z: 0}
+      tangent2: {x: 5, y: 9, z: 0}
+    - _type: 0
+      position: {x: 5, y: 7, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 5, y: 7, z: 0}
+      tangent2: {x: 5, y: 7, z: 0}
+    - _type: 0
+      position: {x: 5, y: 5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 5, y: 5, z: 0}
+      tangent2: {x: 5, y: 5, z: 0}
+    - _type: 0
+      position: {x: 5, y: 3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 5, y: 3, z: 0}
+      tangent2: {x: 5, y: 3, z: 0}
+    - _type: 0
+      position: {x: 3, y: 3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3, y: 3, z: 0}
+      tangent2: {x: 3, y: 3, z: 0}
+    - _type: 0
+      position: {x: 1, y: 3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 1, y: 3, z: 0}
+      tangent2: {x: 1, y: 3, z: 0}
+    - _type: 0
+      position: {x: -1, y: 3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: 3, z: 0}
+      tangent2: {x: -1, y: 3, z: 0}
+    - _type: 0
+      position: {x: -1, y: 5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: 5, z: 0}
+      tangent2: {x: -1, y: 5, z: 0}
+    - _type: 0
+      position: {x: -3, y: 5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -3, y: 5, z: 0}
+      tangent2: {x: -3, y: 5, z: 0}
+    - _type: 0
+      position: {x: -5, y: 5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -5, y: 5, z: 0}
+      tangent2: {x: -5, y: 5, z: 0}
+    - _type: 0
+      position: {x: -5, y: 3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -5, y: 3, z: 0}
+      tangent2: {x: -5, y: 3, z: 0}
+    - _type: 0
+      position: {x: -5, y: 1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -5, y: 1, z: 0}
+      tangent2: {x: -5, y: 1, z: 0}
+    - _type: 0
+      position: {x: -5, y: -1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -5, y: -1, z: 0}
+      tangent2: {x: -5, y: -1, z: 0}
+    - _type: 0
+      position: {x: -3, y: -1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -3, y: -1, z: 0}
+      tangent2: {x: -3, y: -1, z: 0}
+    - _type: 0
+      position: {x: -1, y: -1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: -1, z: 0}
+      tangent2: {x: -1, y: -1, z: 0}
+    - _type: 0
+      position: {x: 1, y: -1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 1, y: -1, z: 0}
+      tangent2: {x: 1, y: -1, z: 0}
+    - _type: 0
+      position: {x: 3, y: -1, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3, y: -1, z: 0}
+      tangent2: {x: 3, y: -1, z: 0}
+    - _type: 0
+      position: {x: 3, y: -3, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3, y: -3, z: 0}
+      tangent2: {x: 3, y: -3, z: 0}
+    - _type: 0
+      position: {x: 3, y: -5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3, y: -5, z: 0}
+      tangent2: {x: 3, y: -5, z: 0}
+    - _type: 0
+      position: {x: 1, y: -5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 1, y: -5, z: 0}
+      tangent2: {x: 1, y: -5, z: 0}
+    - _type: 0
+      position: {x: -1, y: -5, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: -5, z: 0}
+      tangent2: {x: -1, y: -5, z: 0}
+    - _type: 0
+      position: {x: -1, y: -7, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: -7, z: 0}
+      tangent2: {x: -1, y: -7, z: 0}
+    - _type: 0
+      position: {x: -1, y: -9, z: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -1, y: -9, z: 0}
+      tangent2: {x: -1, y: -9, z: 0}
+  Waves:
+  - StartDelay:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 3
+        value: 20
+        inSlope: Infinity
+        outSlope: -0.045230452
+        tangentMode: 7
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.08117017
+      - serializedVersion: 3
+        time: 30
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnAmount:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 5
+        inSlope: -0.035650685
+        outSlope: -0.035650685
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5679349
+      - serializedVersion: 3
+        time: 30
+        value: 30
+        inSlope: -0.002766723
+        outSlope: -0.002766723
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.723307
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.0010919187
+        outSlope: -0.0010919187
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.025957972
+      - serializedVersion: 3
+        time: 30
+        value: 0.75
+        inSlope: 0.00025229732
+        outSlope: 0.00025229732
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14216594
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    EnemyType: 0
+  - StartDelay:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: Infinity
+        outSlope: -0.006399451
+        tangentMode: 7
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10630407
+      - serializedVersion: 3
+        time: 4
+        value: 20
+        inSlope: -0.0011645869
+        outSlope: 0.00068253494
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0.5474009
+      - serializedVersion: 3
+        time: 30
+        value: 6
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnAmount:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: -0.035650685
+        outSlope: -0.035650685
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5679349
+      - serializedVersion: 3
+        time: 30
+        value: 40
+        inSlope: -0.002766723
+        outSlope: -0.002766723
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.723307
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.75
+        inSlope: -0.0002376529
+        outSlope: -0.0002376529
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.031576406
+      - serializedVersion: 3
+        time: 30
+        value: 0.5
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.082818314
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    EnemyType: 0
+  - StartDelay:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20
+        inSlope: Infinity
+        outSlope: -0.049485914
+        tangentMode: 7
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11582679
+      - serializedVersion: 3
+        time: 5
+        value: 30
+        inSlope: -0.005238998
+        outSlope: -0.014097359
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.7233292
+        outWeight: 0.16333751
+      - serializedVersion: 3
+        time: 30
+        value: 7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnAmount:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 15
+        inSlope: -0.035650685
+        outSlope: -0.035650685
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5679349
+      - serializedVersion: 3
+        time: 30
+        value: 50
+        inSlope: -0.002766723
+        outSlope: -0.002766723
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.723307
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.4
+        inSlope: -0.00044398083
+        outSlope: -0.00044398083
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.081387125
+      - serializedVersion: 3
+        time: 30
+        value: 0.2
+        inSlope: -0.00010741815
+        outSlope: -0.00010741815
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.12786846
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    EnemyType: 1
+  - StartDelay:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 25
+        inSlope: Infinity
+        outSlope: -0.049485914
+        tangentMode: 7
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11582679
+      - serializedVersion: 3
+        time: 30
+        value: 7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnAmount:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 15
+        inSlope: -0.035650685
+        outSlope: -0.035650685
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5679349
+      - serializedVersion: 3
+        time: 30
+        value: 50
+        inSlope: -0.002766723
+        outSlope: -0.002766723
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.723307
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: -0.00044398083
+        outSlope: -0.00044398083
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.081387125
+      - serializedVersion: 3
+        time: 30
+        value: 0.35
+        inSlope: 0.00009085413
+        outSlope: 0.00009085413
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07540175
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    EnemyType: 0

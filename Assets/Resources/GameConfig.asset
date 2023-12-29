@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893ebc18d674e455bb9c4d389ef1b792, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  TargetFrameRate: 60
+  Level:
+    LevelData:
+    - {fileID: 11400000, guid: 14a489da235dd4f0587a0df092695ec8, type: 2}
+  Units:
+    Enemy:
+      EnemyData:
+      - {fileID: 11400000, guid: 36ba1742d80b847f9a48dcbbe9da4875, type: 2}
+      - {fileID: 11400000, guid: fbfec31ad5527451190bad0bd5189d8e, type: 2}
+    Projectile:
+      ProjectileData:
+      - {fileID: 11400000, guid: a728c0cb0b30a485780a2d3ef19eccdb, type: 2}
+      - {fileID: 11400000, guid: 55f3f55f448d447d89d8a2a95c332d06, type: 2}
+    Tower:
+      TowerData:
+      - {fileID: 11400000, guid: 7428ca07a10324de2b4f16737eacd372, type: 2}
+      - {fileID: 11400000, guid: 2b021fa2eeafc4240ba40adc4de545d3, type: 2}

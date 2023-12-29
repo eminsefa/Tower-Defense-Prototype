@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Map Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f73c63f275b5b479798a7e94c0db8014, type: 3}
+    - {fileID: 102900000, guid: 98f2c405ca9bc4b8990cb2e035879758, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3b745930f5addf444850e4beb57ea233, type: 3}
+  - {fileID: 21300000, guid: fd4f77d02fdae6e4e876f72a9b569c1c, type: 3}
+  - {fileID: 21300000, guid: 2a17091117d516d45819ea447b3a64dc, type: 3}
+  - {fileID: 21300000, guid: 9c5ace32c27388d498fff4c926e891d3, type: 3}
+  - {fileID: 21300000, guid: 58fc02420396587468137df8d069c2e1, type: 3}
+  - {fileID: 21300000, guid: 2f980c92f29bd164e9323c111479f0b4, type: 3}
+  - {fileID: 21300000, guid: d8c813e248a820a4097def386a2d2ad9, type: 3}
+  - {fileID: 21300000, guid: 1bffcd04a4d946e42b921c31b87f7bf9, type: 3}
+  - {fileID: 21300000, guid: 7b854db465dc0b643a82bebd5998335a, type: 3}
+  - {fileID: 21300000, guid: 8093466557a1bdd48ab5471af7e0c87a, type: 3}
+  - {fileID: 21300000, guid: 6280b1a6f240923498cf4b2e633ce121, type: 3}
+  - {fileID: 21300000, guid: 8a5b8707030aa474489782791b5bea28, type: 3}
+  - {fileID: 21300000, guid: f4585757efcb2454ba2eca0b68860aef, type: 3}
+  - {fileID: 21300000, guid: c60ec6b7a547cbf488fb7fc29f0ffcf2, type: 3}
+  - {fileID: 21300000, guid: 6b796ef73aca04b42b37edce482eaacf, type: 3}
+  - {fileID: 21300000, guid: 0bc2ec089c1e6764ea1c9cfd9e75cf02, type: 3}
+  - {fileID: 21300000, guid: 9a480cd8be6ff144980b20e320ee0c52, type: 3}
+  - {fileID: 21300000, guid: 1ffc81892c314f643a63a6ab535ddc5d, type: 3}
+  - {fileID: 21300000, guid: 2ff6d49a81bf8ce44a6f2919cd2c3f3b, type: 3}
+  - {fileID: 21300000, guid: ee46c7aa9c9c6aa4eab3bbbdb7df3227, type: 3}
+  - {fileID: 21300000, guid: 22b71b6c161700241a6d6002395c4835, type: 3}
+  - {fileID: 21300000, guid: 487071bc95868d0418d51279b378aa3e, type: 3}
+  - {fileID: 21300002, guid: 487071bc95868d0418d51279b378aa3e, type: 3}
+  - {fileID: 21300004, guid: 487071bc95868d0418d51279b378aa3e, type: 3}
+  - {fileID: 21300000, guid: a87c1bbdf19a86642ad1e80e1781e0f2, type: 3}
+  - {fileID: 21300000, guid: ef2db06e41e617943b903238b01aeccf, type: 3}
+  - {fileID: 21300000, guid: 47daa91fa48713a43bc727b8e8f73209, type: 3}
+  - {fileID: 21300000, guid: d6fa427fb2532e848ab6f945c3d91f0a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tree 3
+  - Road 2
+  - Tree 5
+  - Bush 1
+  - Grass 1
+  - Road 11
+  - Road 9
+  - Forest 1
+  - Road 7
+  - Grass 3
+  - Grass 2
+  - Road 10
+  - Road 1
+  - Road 3
+  - Stone 1
+  - Road 4
+  - Tree 2
+  - Grass 4
+  - Tree 1
+  - Bush 3
+  - Road 6
+  - Enemy_point_&_Defeat_point_2v_0
+  - Enemy_point_&_Defeat_point_2v_1
+  - Enemy_point_&_Defeat_point_2v_2
+  - Tree 4
+  - Road 8
+  - Bush 2
+  - Road 5
+  m_RenderDataMap: {}
+  m_Tag: Map Atlas
+  m_IsVariant: 0
